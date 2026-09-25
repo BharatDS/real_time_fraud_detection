@@ -1,0 +1,6 @@
+{
+  "threshold": 0.8500000000000001,
+  "selection_metric": "F1",
+  "selection_split": "validation",
+  "note": "Threshold chosen by maximum validation F1. A production threshold should ultimately be chosen using business costs for false positives and false negatives."
+}

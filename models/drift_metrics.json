@@ -1,0 +1,30 @@
+{
+  "overall_status": "DRIFT",
+  "max_psi": 0.8295,
+  "features": {
+    "Transaction_Amount": {
+      "psi": 0.8295,
+      "status": "DRIFT"
+    },
+    "Daily_Transaction_Count": {
+      "psi": 0.0003,
+      "status": "NORMAL"
+    },
+    "Avg_Transaction_Amount_7d": {
+      "psi": 0.0003,
+      "status": "NORMAL"
+    },
+    "Failed_Transaction_Count_7d": {
+      "psi": 0.0,
+      "status": "NORMAL"
+    },
+    "Risk_Score": {
+      "psi": 0.0001,
+      "status": "NORMAL"
+    },
+    "Transaction_Distance": {
+      "psi": 0.0005,
+      "status": "NORMAL"
+    }
+  }
+}

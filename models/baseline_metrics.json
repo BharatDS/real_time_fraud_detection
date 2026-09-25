@@ -1,0 +1,79 @@
+{
+  "always_normal": {
+    "threshold": 0.5,
+    "accuracy": 0.6856,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "pr_auc": 0.3144,
+    "confusion_matrix": [
+      [
+        5142,
+        0
+      ],
+      [
+        2358,
+        0
+      ]
+    ]
+  },
+  "logistic_regression": {
+    "threshold": 0.5,
+    "accuracy": 0.8,
+    "precision": 0.6482377332411887,
+    "recall": 0.7955894826123834,
+    "f1": 0.7143945163747144,
+    "roc_auc": 0.896078264481268,
+    "pr_auc": 0.8088357049935533,
+    "confusion_matrix": [
+      [
+        4124,
+        1018
+      ],
+      [
+        482,
+        1876
+      ]
+    ]
+  },
+  "xgboost_validation": {
+    "threshold": 0.5,
+    "accuracy": 0.9993333333333333,
+    "precision": 0.9991514637250742,
+    "recall": 0.9987277353689568,
+    "f1": 0.9989395546129375,
+    "roc_auc": 0.9999979381164413,
+    "pr_auc": 0.9999955222509218,
+    "confusion_matrix": [
+      [
+        5140,
+        2
+      ],
+      [
+        3,
+        2355
+      ]
+    ]
+  },
+  "xgboost_test_default_threshold": {
+    "threshold": 0.5,
+    "accuracy": 0.9993333333333333,
+    "precision": 0.9995896594173164,
+    "recall": 0.9983606557377049,
+    "f1": 0.9989747795776092,
+    "roc_auc": 0.9999987850709517,
+    "pr_auc": 0.9999974873715598,
+    "confusion_matrix": [
+      [
+        5059,
+        1
+      ],
+      [
+        4,
+        2436
+      ]
+    ]
+  },
+  "scale_pos_weight": 2.1058656491259207
+}

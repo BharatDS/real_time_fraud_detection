@@ -1,0 +1,31 @@
+{
+  "categorical_columns": [
+    "Transaction_Type",
+    "Device_Type",
+    "Location",
+    "Merchant_Category",
+    "Card_Type",
+    "Authentication_Method"
+  ],
+  "numerical_columns": [
+    "Transaction_Amount",
+    "Account_Balance",
+    "IP_Address_Flag",
+    "Previous_Fraudulent_Activity",
+    "Daily_Transaction_Count",
+    "Avg_Transaction_Amount_7d",
+    "Failed_Transaction_Count_7d",
+    "Card_Age",
+    "Transaction_Distance",
+    "Risk_Score",
+    "Is_Weekend",
+    "transaction_hour",
+    "transaction_day",
+    "transaction_month",
+    "transaction_dayofweek",
+    "amount_vs_avg_7d",
+    "failed_transaction_ratio",
+    "amount_balance_ratio"
+  ],
+  "model_feature_count": 43
+}
